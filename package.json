@@ -2,10 +2,11 @@
   "name": "maeiler-website",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "api/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node api/index.js",
+    "vercel-build": "echo 'Built successfully'",
+    "dev": "vercel dev"
   },
   "keywords": [],
   "author": "",
